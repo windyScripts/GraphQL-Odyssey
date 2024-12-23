@@ -1,0 +1,18 @@
+"A particular location available for booking"
+type Listing {
+    id: ID!
+    "Listing title"
+    title: String!
+    "Number of beds available"
+    numOfBeds: Int
+    "Cost per night of stay"
+    costPerNight: Float
+    "Indicates whether location is closed for booking"
+    closedForBookings: Boolean
+}
+
+type Query {
+    "Curated array of listings to feature on homepage"
+    featuredListings: [Listing!]!
+}
+
