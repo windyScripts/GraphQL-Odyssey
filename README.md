@@ -26,3 +26,6 @@ For any issues or problems concerning the course content, please refer to the [O
 For further reference, please consider the following sections:
 
 * [Official TypeScript documentation](https://www.typescriptlang.org/docs/)
+
+
+https://www.apollographql.com/tutorials/intro-typescript/08-resolvers
