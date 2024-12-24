@@ -11,6 +11,16 @@ type Listing {
     costPerNight: Float
     "Indicates whether location is closed for booking"
     closedForBookings: Boolean
+    "The amenities available for this listing"
+    amenities: [Amenity!]!
+}
+
+type Amenity {
+    id: ID!
+    "The amenity category the amenity belongs to"
+    category: String!
+    "The amenity's name"
+    name: String!
 }
 
 type Query {
